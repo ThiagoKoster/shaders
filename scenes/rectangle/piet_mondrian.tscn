@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/rectangle/piet_mondrian.gdshader" type="Shader" id=1]
+
+[sub_resource type="ShaderMaterial" id=2]
+shader = ExtResource( 1 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource( 2 )
+margin_left = 2.68253
+margin_top = 1.34326
+margin_right = 543.682
+margin_bottom = 267.343
+__meta__ = {
+"_edit_use_anchors_": false
+}
